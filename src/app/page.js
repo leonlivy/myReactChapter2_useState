@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import HelloWorld from "./HelloWorld"
+import HelloWorld from "./HelloWorld";
+import ToDoList from "./ToDoList";
 //JSX apporach to create
 
 const myP= (
@@ -25,6 +26,7 @@ export default function Home() {
   return (
     <main>
      <HelloWorld />
+     <ToDoList  />
     </main>
     
   )
